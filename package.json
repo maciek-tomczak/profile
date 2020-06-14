@@ -1,0 +1,38 @@
+{
+  "name": "maciek-tomczak-portfolio",
+  "description": "portfolio",
+  "version": "1.0.0",
+  "author": "Maciek Tomczak",
+  "dependencies": {
+    "gatsby": "^2.19.5",
+    "gatsby-plugin-manifest": "^2.2.38",
+    "gatsby-plugin-react-helmet": "^3.1.21",
+    "gatsby-plugin-sass": "^2.1.27",
+    "node-sass": "^4.13.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^5.2.1"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "clean": "rm -rf public .cache",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"src/**/*.js\"",
+    "serve:build": "npm run clean && npm run build && http-server ./public",
+    "start": "npm run develop",
+    "start:prod": "npm run build && npm run serve:build",
+    "deploy:github": "npm run clean && npm run build && node ./scripts/deploy-github"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.0.0",
+    "prettier": "^1.19.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maciek-tomczak/maciek-tomczak.github.io"
+  }
+}
