@@ -39,7 +39,7 @@ class Main extends React.Component {
 			  <a href="https://sophia.mus.auth.gr/xmlui/bitstream/handle/123456789/1897/FMA_proceedings_2018.pdf?sequence=1#page=11">I. Ali-MacLachlan, C. Southall, <b>M. Tomczak</b> and J. Hockman, Player recognition for traditional Irish flute recordings. In Proceedings of the International Workshop on Folk Music Analysis, Thessaloniki, Greece, 2018.</a>
 		  </p>
 		  <p>
-			  <a href="{https://dmtlab.bcu.ac.uk/rppw2017/"><b>M. Tomczak</b>, C. Southall and J. Hockman, Rhythm modelling using convolutional neural networks. In Rhythm Production and Perception Workshop, Birmingham, United Kingdom, 2017.</a>
+			  <a href="https://dmtlab.bcu.ac.uk/rppw2017/"><b>M. Tomczak</b>, C. Southall and J. Hockman, Rhythm modelling using convolutional neural networks. In Rhythm Production and Perception Workshop, Birmingham, United Kingdom, 2017.</a>
 		  </p>
 		  <p>
 			  <a href="http://www.open-access.bcu.ac.uk/4748/1/Hockman\%20-\%20improved\%20onset.pdf">I. Ali-MacLachlan, C. Southall, <b>M. Tomczak</b>, and J. Hockman. Improved onset detection for traditional Irish flute recordings using convolutional neural networks. In Proceedings of the International Workshop on Folk Music Analysis, Malaga, Spain, 2017.</a>
