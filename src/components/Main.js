@@ -104,6 +104,14 @@ class Main extends React.Component {
 		  </li>
 		  <li>
 		  <a
+		  href="https://maciek-tomczak.github.io/maciek.github.io/"
+		  className="icon fa-beer"
+		  >
+		  <span className="label">Blog</span>
+		  </a>
+		  </li>
+		  <li>
+		  <a
 		  href="https://gitlab.com/Razjel"
 		  className="icon fa-gitlab"
 		  >
