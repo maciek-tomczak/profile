@@ -30,22 +30,31 @@ class Main extends React.Component {
 		>
 		  <h2 className="major">Refereed Publications</h2>
 		  <p>
-			  <a href="http://dafx2019.bcu.ac.uk/papers/DAFx2019_paper_25.pdf"><b>M. Tomczak</b>, J. Drysdale and J. Hockman, Drum translation for timbral and rhythmic transformation. In Proceedings of the International Conference on Digital Audio Effects, Birmingham, United Kingdom, 2019.</a>
+			  <a href="https://doi.org/10.1145/3394171.3413519"><b>Tomczak M.</b>, M. Goto and J. Hockman, Drum Synthesis and Rhythmic Transformationwith Adversarial Autoencoders. In Proceedings of the ACM International Conference on Multimedia, Seattle, WA, USA, 2020.</a>
 		  </p>
 		  <p>
-			  <a href="http://dafx2018.web.ua.pt/papers/DAFx2018_paper_48.pdf"><b>M. Tomczak</b>, C. Southall and J. Hockman, Audio style transfer with rhythmic constraints. In Proceedings of the International Conference on Digital Audio Effects, Aveiro, Portugal, 2018.</a>
+		  <a href="https://dafx2020.mdw.ac.at/">Drysdale J., <b>M. Tomczak</b>, and J. Hockman, Adversarial Synthesis of Drum Sounds. In Proceedings of the International Conference on Digital Audio Effects, Vienna, Austria, 2020.</a>
 		  </p>
 		  <p>
-			  <a href="https://sophia.mus.auth.gr/xmlui/bitstream/handle/123456789/1897/FMA_proceedings_2018.pdf?sequence=1#page=11">I. Ali-MacLachlan, C. Southall, <b>M. Tomczak</b> and J. Hockman, Player recognition for traditional Irish flute recordings. In Proceedings of the International Workshop on Folk Music Analysis, Thessaloniki, Greece, 2018.</a>
+			  <a href="https://www.icmla-conference.org/icmla20/">Lin E., <b>Tomczak M.</b>, T. Nakano and M. Goto, Investigating Information Bottleneck in Variational Autoencoder based Singing Voice Decomposition. In Proceedings of the IEEE International Conference of Machine Learning and Applications (submitted), Miami, Florida, USA, 2020.</a>
 		  </p>
 		  <p>
-			  <a href="https://dmtlab.bcu.ac.uk/rppw2017/"><b>M. Tomczak</b>, C. Southall and J. Hockman, Rhythm modelling using convolutional neural networks. In Rhythm Production and Perception Workshop, Birmingham, United Kingdom, 2017.</a>
+			  <a href="http://dafx2019.bcu.ac.uk/papers/DAFx2019_paper_25.pdf"><b>Tomczak M.</b>, J. Drysdale and J. Hockman, Drum Translation for Timbral and Rhythmic Transformation. In Proceedings of the International Conference on Digital Audio Effects, Birmingham, United Kingdom, 2019.</a>
 		  </p>
 		  <p>
-			  <a href="http://www.open-access.bcu.ac.uk/4748/1/Hockman\%20-\%20improved\%20onset.pdf">I. Ali-MacLachlan, C. Southall, <b>M. Tomczak</b>, and J. Hockman. Improved onset detection for traditional Irish flute recordings using convolutional neural networks. In Proceedings of the International Workshop on Folk Music Analysis, Malaga, Spain, 2017.</a>
+			  <a href="http://dafx2018.web.ua.pt/papers/DAFx2018_paper_48.pdf"><b>Tomczak M.</b>, C. Southall and J. Hockman, Audio Style Transfer with Rhythmic Constraints. In Proceedings of the International Conference on Digital Audio Effects, Aveiro, Portugal, 2018.</a>
 		  </p>
 		  <p>
-			  <a href="https://arrow.dit.ie/cgi/viewcontent.cgi?article=1006&context=fema">I. Ali-MacLachlan, <b>M. Tomczak</b>, C. Southall, and J. Hockman. Note, cut and strike detection for traditional Irish flute recordings. In Proceedings of the International Workshop on Folk Music Analysis, Dublin, Ireland, 2016.</a>
+			  <a href="https://sophia.mus.auth.gr/xmlui/bitstream/handle/123456789/1897/FMA_proceedings_2018.pdf?sequence=1#page=11">Ali-MacLachlan I., C. Southall, <b>M. Tomczak</b> and J. Hockman, Player recognition for traditional Irish flute recordings. In Proceedings of the International Workshop on Folk Music Analysis, Thessaloniki, Greece, 2018.</a>
+		  </p>
+		  <p>
+			  <a href="https://dmtlab.bcu.ac.uk/rppw2017/"><b>Tomczak M.</b>, C. Southall and J. Hockman, Rhythm Modelling using Convolutional Neural Networks. In Rhythm Production and Perception Workshop, Birmingham, United Kingdom, 2017.</a>
+		  </p>
+		  <p>
+			  <a href="http://www.open-access.bcu.ac.uk/4748/1/Hockman\%20-\%20improved\%20onset.pdf">Ali-MacLachlan I., C. Southall, <b>M. Tomczak</b>, and J. Hockman. Improved Onset Detection for Traditional Irish Flute Recordings using Convolutional Neural Networks. In Proceedings of the International Workshop on Folk Music Analysis, Malaga, Spain, 2017.</a>
+		  </p>
+		  <p>
+			  <a href="https://arrow.dit.ie/cgi/viewcontent.cgi?article=1006&context=fema">Ali-MacLachlan I., <b>M. Tomczak</b>, C. Southall, and J. Hockman. Note, Cut and Strike Detection for Traditional Irish Flute Recordings. In Proceedings of the International Workshop on Folk Music Analysis, Dublin, Ireland, 2016.</a>
 		  </p>
 		  {close}
 		</article>
