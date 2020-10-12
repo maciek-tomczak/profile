@@ -16,7 +16,7 @@ const Header = props => (
         <h1>Maciek Tomczak</h1>
         <p>
           Hi, I am a PhD student at Birmingham City University working on{' '}
-          <a href="https://maciek-tomczak.github.io/maciek.github.io/">neural audio synthesis and rhythmic transformations</a>.
+          <a href="https://maciek-tomczak.github.io/maciek.github.io/">automated rhythmic transformation of drum recordings</a>.
         </p>
 		<p>
 		Research Interests: Music information retrieval, rhythm analysis, deep learning, audio style transfer, audio synthesis, onset detection, beat and metre detection, drum transcription, digital audio effects, computational musicology, interactive music systems, music performance systems

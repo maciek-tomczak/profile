@@ -36,9 +36,6 @@ class Main extends React.Component {
 		  <a href="https://dafx2020.mdw.ac.at/">Drysdale J., <b>M. Tomczak</b>, and J. Hockman, Adversarial Synthesis of Drum Sounds. In Proceedings of the International Conference on Digital Audio Effects, Vienna, Austria, 2020.</a>
 		  </p>
 		  <p>
-			  <a href="https://www.icmla-conference.org/icmla20/">Lin E., <b>Tomczak M.</b>, T. Nakano and M. Goto, Investigating Information Bottleneck in Variational Autoencoder based Singing Voice Decomposition. In Proceedings of the IEEE International Conference of Machine Learning and Applications (submitted), Miami, Florida, USA, 2020.</a>
-		  </p>
-		  <p>
 			  <a href="http://dafx2019.bcu.ac.uk/papers/DAFx2019_paper_25.pdf"><b>Tomczak M.</b>, J. Drysdale and J. Hockman, Drum Translation for Timbral and Rhythmic Transformation. In Proceedings of the International Conference on Digital Audio Effects, Birmingham, United Kingdom, 2019.</a>
 		  </p>
 		  <p>
