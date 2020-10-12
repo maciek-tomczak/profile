@@ -33,7 +33,7 @@ class Main extends React.Component {
 			  <a href="https://doi.org/10.1145/3394171.3413519"><b>Tomczak M.</b>, M. Goto and J. Hockman, Drum Synthesis and Rhythmic Transformationwith Adversarial Autoencoders. In Proceedings of the ACM International Conference on Multimedia, Seattle, WA, USA, 2020.</a>
 		  </p>
 		  <p>
-		  <a href="https://dafx2020.mdw.ac.at/">Drysdale J., <b>M. Tomczak</b>, and J. Hockman, Adversarial Synthesis of Drum Sounds. In Proceedings of the International Conference on Digital Audio Effects, Vienna, Austria, 2020.</a>
+		  <a href="https://dafx2020.mdw.ac.at/proceedings/papers/DAFx2020_paper_45.pdf">Drysdale J., <b>M. Tomczak</b>, and J. Hockman, Adversarial Synthesis of Drum Sounds. In Proceedings of the International Conference on Digital Audio Effects, Vienna, Austria, 2020.</a>
 		  </p>
 		  <p>
 			  <a href="http://dafx2019.bcu.ac.uk/papers/DAFx2019_paper_25.pdf"><b>Tomczak M.</b>, J. Drysdale and J. Hockman, Drum Translation for Timbral and Rhythmic Transformation. In Proceedings of the International Conference on Digital Audio Effects, Birmingham, United Kingdom, 2019.</a>
