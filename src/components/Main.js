@@ -87,6 +87,13 @@ class Main extends React.Component {
 		  <img src={amnesia} alt="" />
 		  </span>
 
+		  <h3 className="major">Presentations</h3>
+		  <p>
+		  <a href="https://eventory.cc/event/nejiro-9/schedule/46125"> 2018 - 'Mamo nie słyszę, bo miksuję!'</a> presented at <a href="https://eventory.cc/event/nejiro-9">Nejiro 9</a>.
+		  <br></br>
+		  <a href="https://eventory.cc/event/pyrkon-2017/schedule/29585"> 2017 - Muzyka i dźwięk w filmach zza kulis</a> presented at <a href="https://pyrkon.pl/en/about-pyrkon/">Pyrkon</a>.
+		  </p>
+
 		  {close}
 		</article>
 
