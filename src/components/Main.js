@@ -90,7 +90,7 @@ class Main extends React.Component {
 					<p>
 						<a href="https://nanokarrin.pl/">NanoKarrin</a> is the largest Polish fandubbing group that connects amateurs, professionals and everyone in between. My main responsibilities within the group are sound engineering (mixing & mastering of music projects) and <Link to="https://rekrutacja.nanokarrin.pl/docs/rekrurealizator">recruitment</Link>.
 						<br></br><br></br>
-						<Link to="/portfolio">> Click here for my mixing and mastering porfolio.</Link>
+						<Link to="/portfolio">&gt; Click here for my mixing and mastering porfolio.</Link>
 						<span className="image main">
 							<img src={NKlogo} alt="" />
 						</span>
