@@ -58,11 +58,10 @@ class Main extends React.Component {
 
 				<article id="teaching" className={`${this.props.article === 'teaching' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none' }}>
 					<h2 className="major">Teaching</h2>
-					<p>I was a teaching assistant on the following courses:</p>
-					<a href="https://www.bcu.ac.uk/digital-technology/courses/sound-engineering-and-production-bsc-hons-2021-22">Sound Engineering and Production BSc (Hons) at Birmingham City University, UK</a><br></br>
+					<p>I was a teaching assistant on the following modules at the Birmingham City University <a href="https://www.bcu.ac.uk/digital-technology/courses/sound-engineering-and-production-bsc-hons-2021-22">Sound Engineering and Production BSc (Hons) course:</a></p>
 					<ul class='fa-ul'>
 						<li><i>2019-20</i> &nbsp;&nbsp;New Interfaces for Musical Expression [DIG6111]</li>
-						<li><i>2018-19</i> &nbsp;&nbsp;Digital Audio Fundamentals [DIG4157]</li>
+						<li><i>2018-19</i> &nbsp;&nbsp;Digital Audio Fundamentals (visiting lecturer) [DIG4157]</li>
 						<li><i>2018-19</i> &nbsp;&nbsp;Interactive Music Systems [DIG6041]</li>
 						<li><i>2017-18</i> &nbsp;&nbsp;Broadcast Media [DIG6100]</li>
 						<li><i>2018</i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Digital Signal Processing [DIG5069]</li>
