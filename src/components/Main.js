@@ -3,6 +3,7 @@ import React from 'react'
 import hanairoha from '../images/hanairoha.png'
 import NKlogo from '../images/NKlogo.png'
 import amnesia from '../images/amnesia.jpg'
+import { Link } from 'gatsby'
 
 class Main extends React.Component {
 	render() {
@@ -44,10 +45,10 @@ class Main extends React.Component {
 						<a href="https://sophia.mus.auth.gr/xmlui/bitstream/handle/123456789/1897/FMA_proceedings_2018.pdf?sequence=1#page=11">Ali-MacLachlan I., C. Southall, <b>M. Tomczak</b> and J. Hockman, Player recognition for traditional Irish flute recordings. In Proceedings of the International Workshop on Folk Music Analysis, Thessaloniki, Greece, 2018.</a>
 					</p>
 					<p>
-						<a href="https://dmtlab.bcu.ac.uk/rppw2017/"><b>Tomczak M.</b>, C. Southall and J. Hockman, Rhythm Modelling using Convolutional Neural Networks. In Rhythm Production and Perception Workshop, Birmingham, United Kingdom, 2017.</a>
+						<a href="https://rppw.org/"><b>Tomczak M.</b>, C. Southall and J. Hockman, Rhythm Modelling using Convolutional Neural Networks. In Rhythm Production and Perception Workshop, Birmingham, United Kingdom, 2017.</a>
 					</p>
 					<p>
-						<a href="http://www.open-access.bcu.ac.uk/4748/1/Hockman\%20-\%20improved\%20onset.pdf">Ali-MacLachlan I., C. Southall, <b>M. Tomczak</b>, and J. Hockman. Improved Onset Detection for Traditional Irish Flute Recordings using Convolutional Neural Networks. In Proceedings of the International Workshop on Folk Music Analysis, Malaga, Spain, 2017.</a>
+						<a href="https://www.open-access.bcu.ac.uk/4748/1/Hockman%20-%20improved%20onset.pdf">Ali-MacLachlan I., C. Southall, <b>M. Tomczak</b>, and J. Hockman. Improved Onset Detection for Traditional Irish Flute Recordings using Convolutional Neural Networks. In Proceedings of the International Workshop on Folk Music Analysis, Malaga, Spain, 2017.</a>
 					</p>
 					<p>
 						<a href="https://arrow.dit.ie/cgi/viewcontent.cgi?article=1006&context=fema">Ali-MacLachlan I., <b>M. Tomczak</b>, C. Southall, and J. Hockman. Note, Cut and Strike Detection for Traditional Irish Flute Recordings. In Proceedings of the International Workshop on Folk Music Analysis, Dublin, Ireland, 2016.</a>
@@ -55,18 +56,42 @@ class Main extends React.Component {
 					{close}
 				</article>
 
-				<article
-					id="musicdubbing"
-					className={`${this.props.article === 'musicdubbing' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''
-						}`}
-					style={{ display: 'none' }}
-				>
+				<article id="teaching" className={`${this.props.article === 'teaching' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none' }}>
+					<h2 className="major">Teaching</h2>
+					<p>I was a teaching assistant on the following courses:</p>
+					<a href="https://www.bcu.ac.uk/digital-technology/courses/sound-engineering-and-production-bsc-hons-2021-22">Sound Engineering and Production BSc (Hons) at Birmingham City University, UK</a><br></br>
+					<ul class='fa-ul'>
+						<li><i>2019-20</i> &nbsp;&nbsp;New Interfaces for Musical Expression [DIG6111]</li>
+						<li><i>2018-19</i> &nbsp;&nbsp;Digital Audio Fundamentals [DIG4157]</li>
+						<li><i>2018-19</i> &nbsp;&nbsp;Interactive Music Systems [DIG6041]</li>
+						<li><i>2017-18</i> &nbsp;&nbsp;Broadcast Media [DIG6100]</li>
+						<li><i>2018</i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Digital Signal Processing [DIG5069]</li>
+						<li><i>2017</i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Musical Instrument Acoustics [DIG4082]</li>
+						<li><i>2017</i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Acoustic Fundamentals [DIG5059]</li>
+						<li><i>2017</i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sound for Film: Recording, Mixing and Mastering (summer school)</li>
+						<li><i>2016</i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Live Sound Engineering [DIG4158]</li>
+						<li><i>2015-16</i> &nbsp;&nbsp;Music and Sound for Visual Media [DIG6042]</li>
+					</ul>
+					<h3 className="major">Presentations at fan conventions</h3>
+					<ul class='fa-ul'>
+						<li><i>2018</i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://eventory.cc/event/nejiro-9/schedule/46125">'Mamo nie słyszę, bo miksuję!'</a> presented at <a href="https://eventory.cc/event/nejiro-9">Nejiro 9</a>.</li>
+						<li><i>2017</i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://eventory.cc/event/pyrkon-2017/schedule/29585">Muzyka i dźwięk w filmach zza kulis</a> presented at <a href="https://pyrkon.pl/en/about-pyrkon/">Pyrkon</a>.</li>
+					</ul>
+					<h3 className="major">Courses and teaching material</h3>
+					<ul class='fa-ul'>
+						<li><i>2016</i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://eventory.cc/event/nejiro-9/schedule/46125">Kurs Realizatorów Fandubbingowych (KRF)</a>, <a href="https://www.slideshare.net/MaciekTomczak/kurs-realizatorw-fandubbingowych-2016">[pdf]</a>.</li>
+					</ul>
+					{close}
+				</article>
+				<article id="musicdubbing" className={`${this.props.article === 'musicdubbing' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : '' }`} style={{ display: 'none' }}>
 					<h2 className="major">Music and Dubbing</h2>
 
 					<h3 className="major">NanoKarrin</h3>
 					<p>
-						<a href="https://nanokarrin.pl/">NanoKarrin</a> is the largest Polish fandubbing group that connects amateurs, professionals and everyone in between. My main responsibilities within the group are sound engineering (mixing & mastering of music projects) and recruitment.
-		  <span className="image main">
+						<a href="https://nanokarrin.pl/">NanoKarrin</a> is the largest Polish fandubbing group that connects amateurs, professionals and everyone in between. My main responsibilities within the group are sound engineering (mixing & mastering of music projects) and <Link to="https://rekrutacja.nanokarrin.pl/docs/rekrurealizator">recruitment</Link>.
+						<br></br><br></br>
+						<Link to="/portfolio">> Click here for my mixing and mastering porfolio.</Link>
+						<span className="image main">
 							<img src={NKlogo} alt="" />
 						</span>
 					</p>
@@ -84,14 +109,16 @@ class Main extends React.Component {
 		  <span className="image main">
 						<img src={amnesia} alt="" />
 					</span>
+					{close}
+				</article>
 
-					<h3 className="major">Presentations</h3>
-					<p>
-						<a href="https://eventory.cc/event/nejiro-9/schedule/46125"> 2018 - 'Mamo nie słyszę, bo miksuję!'</a> presented at <a href="https://eventory.cc/event/nejiro-9">Nejiro 9</a>.
-		  <br></br>
-						<a href="https://eventory.cc/event/pyrkon-2017/schedule/29585"> 2017 - Muzyka i dźwięk w filmach zza kulis</a> presented at <a href="https://pyrkon.pl/en/about-pyrkon/">Pyrkon</a>.
-		  </p>
-
+				<article
+					id="cv"
+					className={`${this.props.article === 'cv' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''
+						}`}
+					style={{ display: 'none' }}
+				>
+					<Link to="/">Go back to the homepage</Link>
 					{close}
 				</article>
 
