@@ -35,7 +35,7 @@ const SecondPage = () => (
             <li><i>2012</i> &nbsp;&nbsp;<Link to="http://youtu.be/fX4Cju9yV5Q">School Days OP - Innocent Blue</Link></li>
             <li><i>2012</i> &nbsp;&nbsp;<Link to="https://youtu.be/YvgfhN5VLMQ">Higurashi no Naku Koro Ni OP</Link></li>
             <li><i>2012</i> &nbsp;&nbsp;<Link to="https://youtu.be/YvMToqVmPKY">Sword Art Online OP - Crossing Field</Link></li>
-            <li><i>2012</i> &nbsp;&nbsp;<Link to="https://youtu.be/MfRg7WjP4IQ">Bleach OP12 - Change</Link></li>
+            <li><i>2012</i> &nbsp;&nbsp;<Link to="https://youtu.be/MfRg7WjP4IQ">Bleach OP 12 - Change</Link></li>
     </ol>
     <p>Selected mastering work and assistance on projects:</p>
     <ol class='fa-ul'>

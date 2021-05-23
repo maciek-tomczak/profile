@@ -78,7 +78,7 @@ class Main extends React.Component {
 					</ul>
 					<h3 className="major">Courses and teaching material</h3>
 					<ul class='fa-ul'>
-						<li><i>2016</i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://eventory.cc/event/nejiro-9/schedule/46125">Kurs Realizatorów Fandubbingowych (KRF)</a>, <a href="https://www.slideshare.net/MaciekTomczak/kurs-realizatorw-fandubbingowych-2016">[pdf]</a>.</li>
+						<li><i>2016</i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://rekrutacja.nanokarrin.pl/docs/realizacja2">Kurs Realizatorów Fandubbingowych (KRF)</a>, <a href="https://www.slideshare.net/MaciekTomczak/kurs-realizatorw-fandubbingowych-2016">[pdf]</a>.</li>
 					</ul>
 					{close}
 				</article>
