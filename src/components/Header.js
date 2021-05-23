@@ -12,7 +12,6 @@ import PDF from '/src/images/cv.pdf'
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
 
-    <img src={logo1} alt="" />
 
     <div className="content">
       <div className="inner">
