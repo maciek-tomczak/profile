@@ -141,7 +141,7 @@ class Main extends React.Component {
 						<li>
 							<a
 								href="https://maciek-tomczak.github.io/maciek.github.io/"
-								className="icon fa-beer"
+								className="icon fa-archive"
 							>
 								<span className="label">Blog</span>
 							</a>
@@ -154,12 +154,17 @@ class Main extends React.Component {
 								<span className="label">GitHub</span>
 							</a>
 						</li>
-						<li>
+						{/* <li>
 							<a
 								href="https://gitlab.com/Razjel"
 								className="icon fa-gitlab"
 							>
 								<span className="label">Gitlab</span>
+							</a>
+						</li> */}
+						<li>
+							<a href="https://www.linkedin.com/in/maciek-tomczak-08b58867/" className="icon fa-linkedin">
+								<span className="label">Linkedin</span>
 							</a>
 						</li>
 						<li>
@@ -167,15 +172,18 @@ class Main extends React.Component {
 								<span className="label">Email</span>
 							</a>
 						</li>
-						<li>
-							<a href="https://www.linkedin.com/in/maciek-tomczak-08b58867/" className="icon fa-linkedin">
-								<span className="label">Linkedin</span>
-							</a>
-						</li>
-						<li>
+						{/* <li>
 							<a
 								href="https://www.instagram.com/razjel.ove/"
 								className="icon fa-instagram"
+							>
+								<span className="label">Instagram</span>
+							</a>
+						</li> */}
+						<li>
+							<a
+								href="https://ko-fi.com/razjel"
+								className="icon fa-coffee"
 							>
 								<span className="label">Instagram</span>
 							</a>
